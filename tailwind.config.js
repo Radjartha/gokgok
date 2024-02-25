@@ -4,6 +4,7 @@ module.exports = {
   "./src/**/*.{vue,js,ts,jsx,tsx}",
   "node_modules/flowbite-vue/**/*.{vue,js,jsx,ts,tsx}",
   "node_modules/flowbite/**/*.{vue,js,jsx,ts,tsx}",
+  "./node_modules/flowbite/**/*.js"
 ],
   theme: {
     container: {
@@ -13,7 +14,7 @@ module.exports = {
         sm: '2rem',
         lg: '5rem',
         xl: '6rem',
-   '2xl': '8rem',
+   '2xl': '14rem',
       },
     },
     extend: {},

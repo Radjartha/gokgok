@@ -208,6 +208,47 @@ body {
 	font-family: 'GeneralSans-BoldItalic';
 }
 
+/* Add Font */
+
+@font-face {
+	font-family: 'Cookierun-Regular';
+	src: url('./fonts/Cookie-Run-Typeface/CookieRunFont_TTF/CookieRun-Regular.ttf') format('truetype'),
+		url('./fonts/Cookie-Run-Typeface/CookieRunFont_OTF/CookieRun-Regular.otf') format('opentype');
+	font-weight: 600;
+	font-display: swap;
+	font-style: normal;
+}
+
+.font-cookierun-regular {
+	font-family: 'Cookierun-Regular';
+}
+
+@font-face {
+	font-family: 'Cookierun-bold';
+	src: url('./fonts/Cookie-Run-Typeface/CookieRunFont_TTF/CookieRun-Bold.ttf') format('truetype'),
+		url('./fonts/Cookie-Run-Typeface/CookieRunFont_OTF/CookieRun-Bold.otf') format('opentype');
+	font-weight: 700;
+	font-display: swap;
+	font-style: normal;
+}
+
+.font-cookierun-bold {
+	font-family: 'Cookierun-bold';
+}
+
+@font-face {
+	font-family: 'GentySans-Regular';
+	src: url('./fonts/genty/GentySans-Regular.ttf') format('truetype');
+	font-weight: 700;
+	font-display: swap;
+	font-style: normal;
+}
+
+.font-icon {
+	font-family: 'GentySans-Regular';
+}
+
+
 /* Active class for navigation menu */
 .router-link-active,
 .router-link-exact-active {
