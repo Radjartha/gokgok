@@ -8,7 +8,7 @@ import footervue from './components/footer.vue';
 <template>
 <headervue />
   <RouterView />
-<footervue class="mt-24" />
+<footervue class="mt-10" />
 </template>
 <style scoped>
 #app {
